@@ -1,0 +1,54 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body {
+
+background-image:url(https://i.pinimg.com/736x/69/5f/f5/695ff5d6b89a1460ec02df6dae4d81c8.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+
+
+
+.grid-container{
+display: grid;
+grid-template-columns: 100px 100px 100px 100px 100px;
+gap:1em;
+position: absolute;
+top: 10%;
+left: 30%;
+translate: (-50%,-50%);
+padding: 80px 40px;
+background-color: white;
+box-sizing: border-box;
+
+
+}
+
+
+.grid-items{
+background-color: darkorange;
+border: 1px solid darkred;
+text-align: center;
+
+
+
+
+}
+
+
+p {
+
+text-align: center;
+padding: 40px;
+color: black;
+text-transform: uppercase;
+
+}
